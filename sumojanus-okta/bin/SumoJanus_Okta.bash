@@ -15,4 +15,4 @@ export JAVAPATH="${JAVA_HOME}"
 
 SUMOJANUS_JAR_FILE=`ls januscore*.jar`
 echo "Found SumoJanus core jar file: ${SUMOJANUS_JAR_FILE}"
-${JAVAPATH}/java -jar ${SUMOJANUS_JAR_FILE} ${runMode} OktaCollector-1.0.2.jar -e 1800
+${JAVAPATH}/java -jar ${SUMOJANUS_JAR_FILE} ${runMode} OktaCollector-1.0.2.jar -e 3600
